@@ -25,15 +25,15 @@ tags:
 This is sample content. Replace it with your essay, images about your topic, and at the end an image of your 3D-printed object. My name is Sarah. 
 
 {% include images/figure.html
-  image-path="images/first-four-bulbs.jpeg"
+  image-path="images/nuclear-photos.webp
   image-width="55%"
-  alt-text="The first four light bulbs powered by nuclear energy in 1951."
-  caption="The first four light bulbs powered by nuclear energy in 1951. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:First_four_nuclear_lit_bulbs.jpeg), open access."
+  alt-text="Nuclear power plant with cooling towers"
+  caption="Nuclear power plant with cooling towers. Image Source: Britannica kids."
 %}
 
 
 
-This is sample text that you will replace. Your essay on a particular topic in the History of Energy will explain the background and the object you chose to 3D print. The assignment has been designed with twofold intent in mind. First, quite simply the idea is to introduce students to digital humanities and its potential in learning and pedagogical skill set in a upper division class. Second, students will be encouraged to consider the modes and mediums through which a traditional research paper, and all the skills that go into it, can be transferred to other aspects of critical analysis. Students will consider a particular object – the precise nature and shape of which will be decided in consultation with the class instructor – and how it embodies some of the salient themes in this class on history of energy. The object could be specific to a particular society, culture or form of technology but must explore an illustrative example of a history that has not been covered in this class. 
+This is my paragraph about Nuclear energy. Above is a photo of a Nuclear power plant where cooling towers are present to keep heat low. I haven't chosen this topic permanently for our gallery webpage, I simply have it here as a placeholder so I can learn how to navigate this website better. 
 
 This is how you will create footnotes on your webpage.[^1]
 
