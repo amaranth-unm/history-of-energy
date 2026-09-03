@@ -198,22 +198,23 @@ HOME HERO
   align-items: center;
   min-height: 2.75rem;
   padding: 0.7rem 1.1rem;
-  border: 1px solid var(--text-feature-band-link);
-  border-bottom-color: var(--text-feature-band-link);
+    border: 1px solid #183B4E;
+  border-bottom-color: #183B4E;
   border-radius: var(--radius-sm);
-  background: var(--text-feature-band-link);
-  color: #183B4E;
+  background: #183B4E;
+  color: var(--text-body);
   font-weight: 700;
   text-decoration: none;
   transition: background var(--transition-fast), color var(--transition-fast),
               border-color var(--transition-fast), transform var(--transition-fast);
+
 }
 
 .home-hero-actions a:hover,
 .home-hero-actions a:focus-visible {
   background: var(--interactive-hover);
   border-color: var(--interactive-hover);
-  color: #183B4E;
+  color: var(--text-body);
   transform: translateY(-2px);
 }
 
