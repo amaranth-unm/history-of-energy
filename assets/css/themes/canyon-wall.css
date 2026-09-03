@@ -35,7 +35,7 @@ CSS VARIABLE OVERRIDES
   --bg-code: color-mix(in srgb, var(--limestone) 70%, var(--bg-page));
   --bg-code-block: color-mix(in srgb, var(--ponderosa-green) 88%, var(--shadow-gray));
   --text-code-block: var(--granite-white);
-  --bg-nav: var(--shadow-gray);
+  --bg-nav: #293E37;
   --bg-footer: var(--shadow-gray);
   --bg-footer-bottom: var(--shadow-gray);
 
