@@ -6,15 +6,15 @@ permalink: forking
 
 # Getting Started with Your Class Project Site
 
-**Welcome!** This page guides you through how to fork the Museum of Energy repository to start working on your own project folder.  
-### To Begin
-You should have already have created your own Github account.
-## Quick Start: Your First Steps
+**Welcome!** This page guides you through how to fork the Museum of Energy repository to start working on your own project folder.
+
+## Your First Steps
 
 ### Step 1: Open the Class Project Repository
 
-1. Go to the repository for your class project. In this case, it is github.com/amaranth-unm/museum-of-energy
-2. Make sure you are on the Github site, not the site in itself. It will look like this: 
+1. At this point, you should already have created your own Github account
+2. Go to the repository for your class project. In this case, it is github.com/amaranth-unm/museum-of-energy
+3. Make sure you are on the Github site, not the site in itself. It will look like this: 
 
 {% include images/figure.html
   image-path="images/gettingstarted1.PNG"
@@ -26,7 +26,7 @@ You should have already have created your own Github account.
 %}
 
 
-### Step 2: Create Your Essay Folder
+### Step 2: Fork the Repository
 
 Your project needs its own folder. Here's how:
 
