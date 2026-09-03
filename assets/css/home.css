@@ -202,7 +202,7 @@ HOME HERO
   border-bottom-color: var(--text-feature-band-link);
   border-radius: var(--radius-sm);
   background: var(--text-feature-band-link);
-  color: var(--text-body);
+  color: #183B4E;
   font-weight: 700;
   text-decoration: none;
   transition: background var(--transition-fast), color var(--transition-fast),
@@ -213,7 +213,7 @@ HOME HERO
 .home-hero-actions a:focus-visible {
   background: var(--interactive-hover);
   border-color: var(--interactive-hover);
-  color: var(--text-body);
+  color: #183B4E;
   transform: translateY(-2px);
 }
 
