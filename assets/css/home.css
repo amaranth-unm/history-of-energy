@@ -198,16 +198,15 @@ HOME HERO
   align-items: center;
   min-height: 2.75rem;
   padding: 0.7rem 1.1rem;
-    border: 1px solid #183B4E;
-  border-bottom-color: #183B4E;
+  border: 1px solid var(--text-feature-band-link);
+  border-bottom-color: var(--text-feature-band-link);
   border-radius: var(--radius-sm);
-  background: #183B4E;
+  background: var(--text-feature-band-link);
   color: var(--text-body);
   font-weight: 700;
   text-decoration: none;
   transition: background var(--transition-fast), color var(--transition-fast),
               border-color var(--transition-fast), transform var(--transition-fast);
-
 }
 
 .home-hero-actions a:hover,
