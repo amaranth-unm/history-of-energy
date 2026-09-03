@@ -7,11 +7,8 @@ permalink: forking
 # Getting Started with Your Class Project Site
 
 **Welcome!** This page guides you through how to fork the Museum of Energy repository to start working on your own project folder.  
-
-## To Begin
-
+# To Begin
 You should have already have created your own Github account.
-
 ## Quick Start: Your First Steps
 
 ### Step 1: Open the Class Project Repository
@@ -22,7 +19,7 @@ You should have already have created your own Github account.
 {% include images/figure.html
   image-path="images/gettingstarted1.PNG"
   image-position="right"
-  image-width="42%"
+  image-width="60%"
   alt-text="Screenshot of a github repository"
 
 
