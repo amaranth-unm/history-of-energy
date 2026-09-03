@@ -1,0 +1,202 @@
+---
+title: Initial Steps for Creating Your Project
+layout: base
+permalink: forking
+---
+
+# Getting Started with Your Class Project Site
+
+**Welcome!** This page guides you through how to fork the Museum of Energy repository to start working on your own project folder.  
+
+## To Begin
+
+You should have already have created your own Github account.
+
+## Quick Start: Your First Steps
+
+### Step 1: Open the Class Project Repository
+
+1. Go to the repository for your class project. In this case, it is github.com/amaranth-unm/museum-of-energy
+2. Make sure you are on the Github site, not the site in itself. It will look like this: 
+
+{% include images/figure.html
+  image-path="images/gettingstarted1.PNG"
+  image-position="right"
+  image-width="42%"
+  alt-text="Screenshot of a github repository"
+
+
+%}
+
+
+### Step 2: Create Your Essay Folder
+
+Your project needs its own folder. Here's how:
+
+1. In the sidebar of the Code Editor, click on the `essays/` folder
+2. Left-click to open the menu
+3. Right-click `coal/` and select **Copy**
+4. Right-click again on the `essays/` folder and select **Paste**
+5. Rename that folder using **kebab-case** (lowercase with hypens, no spaces)
+   - ✅ Good examples: `great-fermentation-debate`, `pigeon-conspiracy`, `hot-dog-sandwich`
+   - ❌ Bad examples: `Great Fermentation Debate` (spaces), `GreatFermentationDebate` (not uncapitalized, no hyphens)
+6. The new folder name is saved after you click off of it or hit enter
+
+**What your folder structure will look like:**
+```
+essays/
+├── your-essay-title/
+│   ├── images/           (create this next)
+│   └── index.md          (create this next)
+```
+
+
+## Your First Edits
+
+### Update the Front Matter (Top of Your File)
+
+At the very top of `index.md`, you'll see something like:
+
+```yaml
+---
+title: Coal
+layout: base
+author: Your Name
+date: 2026-01-01
+header-image: images/coal-breaker.jpg
+header-title: Coal
+header-tier: banner
+header-position: center
+thumbnail: images/coal.jpg
+summary: A collection of raw coal. 
+geo: [47.4865, 102.4974]
+placename: Mongolia
+medium: 
+object-date: 2022
+collection: Wikimedia Commons
+tags:
+  - coal
+  - energy
+---
+```
+
+1. Change the `title` to match your actual project. 
+2. Do not change the `layout`.
+3. Change the `author` to to your name. 
+4. Once you have images, you can change `header-image` and `thumbnail`. You do not need to change the other header fields.
+5. For `summary` write a short sentence that will appear in the little card for the file.
+6. For each object file, go to Google Maps and right-click on a location to get its coordinates. Then replace the numbers in `geo`. Keep only four decimal places.
+7. Replace the `placename`.
+8. Add at least two keywords for your `tags`.
+
+
+### Add Your Content
+
+Below the `---` lines, replace the sample content with your own writing, analysis, images, etc. Keep the same structure and formatting.
+
+
+### Add Your Images
+
+1. In the code editor, drag image files from your computer into your `images/` folder
+2. Once uploaded, you can reference them in your `index.md` file by copy-pasting code such as in the following example:
+
+```
+{%raw%}
+{% include images/figure.html
+  class="right"
+  width="40%"
+  caption="What a nice view"
+  alt-text="Color photograph showing some hiking trails in a canyon of the Sandia foothills."
+  image-path="images/coal-1.jpg"
+%}
+{%endraw%}
+```
+
+**Image path tips:**
+- A common error is when people type out the image path and accidentally make a typo
+- Also, pay extra attention to the file type, since **jpg** is not the same a **jpeg**
+
+**Image naming tips:**
+- Use **lowercase only** (no capitals)
+- Use **hyphens** between words, not spaces (e.g., `band-photo.jpg` not `band photo.jpg`)
+- Make names **descriptive** (e.g., `stage-setup.jpg` instead of `photo1.jpg`)
+
+
+## Editing Your Files
+
+### How to Make Changes
+
+1. Open the code editor in your browser (press `.` key)
+2. Click the file you want to edit in the left sidebar
+3. Type to make changes
+4. Click on the flow chart icon on the left
+5. Enter a brief message
+6. Click the `Commmit & Push` button
+7. You can watch the yellow circle spin in the Actions menu on your repository
+8. If you get a green check, you're good!
+9. If you get a red circle with an X, you must stop and investigate. Visit our [Troubleshooting page](https://amaranth.unm.edu/history-of-energy/docs/reference/troubleshooting.html) to help you figure out what to fix.
+
+
+### Using Markdown
+
+You don't need to know HTML! Just use simple **markdown** formatting:
+
+```markdown
+# This is a heading (H1)
+
+## This is a subheading (H2)
+
+**This text is bold**
+
+*This text is italic*
+
+[This is a link](https://example.com)
+
+- Bullet point 1
+- Bullet point 2
+- Bullet point 3
+```
+
+**Tip:** Look at the sample pages in the `essays/` folder to see examples of markdown you can copy!
+
+
+## Need Help?
+
+### Ask Your Instructor
+
+If something breaks or doesn't work:
+- Email the helpful staff at [Amaranth](mailto:amaranth@unm.edu)
+- Tell them what you were trying to do
+- Share a screenshot if helpful
+
+
+### Use AI Tools
+
+You can ask AI assistants like Claude or ChatGPT:
+- "How do I add an image to my markdown file?"
+- "How do I add a new section to my essay?"
+- "What's wrong with this code?" (paste your code and the error)
+- "Can you write this text in markdown format?"
+
+
+### Check the Xanthan Docs
+
+For more advanced features:
+- Browse the `/docs/` folder in your repository
+- Visit [xanthan-web.github.io/xanthan/docs/](https://xanthan-web.github.io/xanthan/docs/)
+
+
+## When You're Ready to Clean Up
+
+Once you understand how to edit your site and you're happy with your project:
+
+1. **Delete this file** (`instructions.md`)
+   - Right-click it in the code editor and select "Delete"
+2. **Remove it from navigation** (if your instructor set that up)
+3. Keep your project folder and start adding your real content!
+
+
+---
+
+{: .text-center .text-muted}
+**Questions?** Ask your instructor or check the [Xanthan documentation](https://xanthan-web.github.io/).
